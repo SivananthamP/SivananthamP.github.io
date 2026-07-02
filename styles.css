@@ -1,0 +1,12 @@
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color:#111; }
+.profile-img { width:90px; height:90px; object-fit:cover; border-radius:50%; border:3px solid rgba(255,255,255,0.35); }
+header a { color: rgba(255,255,255,0.95); text-decoration:underline; }
+.cta { font-weight:600; }
+.project ul { margin-top:0.25rem; }
+main h2 { color: #111; }
+footer { color: #666; }
+
+@media (max-width:576px){
+	.container.d-flex { flex-direction:column; align-items:center; text-align:center; }
+	.profile-img { margin-bottom:0.5rem; }
+}
